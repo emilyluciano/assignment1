@@ -18,15 +18,28 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    
+    background-color: orange;
     font-size: 100%;
+    font-family: serif;
+   
     
-    font-family: Georgia, Times, serif;
 }
 
 img {
-	width: 100%;
-    display: block;
+    width: 100%;
+    display: block;    
+}
+
+.masthead {
+    background-color: white;
+    overflow:hidden;
+}
+
+iframe {
+    padding: 0;
+    margin: 1.5rem;
+    overflow:hidden;
+    width: 20rem;
 }
 
 body {
@@ -34,32 +47,28 @@ body {
     margin: 0;
 }
     
-.masthead {
-    background-color: orange;
+.masthead  {
+    background-color: white;
     overflow:hidden;
+    margin: 0 0 5%;
 }
 
 .logo {
-    height: 6rem;
+    height: 7rem;
     width:auto;
-    margin: 2rem auto;
-    opacity: .8;
+    margin: 0, auto;
 }
 
 .enterprise {
-    margin: 0 5% 3rem;
+    margin: 0;
     overflow: hidden;
-
-    background-color: black;
-    background-image: url(../images/enterprise.png);
-    background-repeat: no-repeat;
-    background-size: 40rem;
+    background-color: white;
+    background-image: url( images/Background.svg);
+    background-repeat: repeat;
+    background-size: 100rem;
     background-position: center center;
-    
     box-shadow: .2rem .4rem .4rem .2rem rgba(0, 0, 0, .8);
-    
-    border: solid .35rem rgba(255, 215, 0, .8);
-    border-radius: 1.25rem;
+    border: solid .35rem rgba;
 }
 
 article {
@@ -69,61 +78,79 @@ article {
 }
 
 h1 {
-    margin: 1.5rem 0;
-    font-size: 5rem;
-    line-height: 4.5rem;
+    margin: 1.5rem;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-family: Georgia;
+    color: orange;
+    
+    
+    
 }
 
 h1 + p {
-    font-size: 1.5rem;
+    margin: 1.5rem;
+    font-size: rem;
     font-weight: serif;
+    font-family: Georgia, serif;
+   
 }
 
 h2 {
-    margin:1.5rem 0;
+    margin: 1.5rem;
     font-size: 1.5rem;
-    line-height:normal'
+    line-height:normal;
+    font-family:fantasy;
+    outline-style:double;
 }
 
 h3 {
-    margin:1.5rem 0;
-    font-size: 1.5rem;
+    margin: 1.5rem;
+    font-size: 2rem;
     line-height:normal;
+    font-family: Georgia, serif;
+    
+}
+
+h4 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-family:fantasy;
+    outline-style:double;
+    
 }
 
 p {
+    margin: 1.5rem;
     line-height: 1.5rem;
-    margin: 0 0 1.5rem;
+    font-family: serif;
+    
 }
 
 figure {
-    margin: 0 auto 1.5rem;
-    width: 100%; 
-}
-
-iframe {
-    margin: .5 0;
+    margin: 0;
     width: 100%;
-    height: 50;
-}
+    height: auto;
     
+}
 
 figcaption { 
-    font-size: 1.5rem;
-    margin: .5rem 0 0;
+    font-size: 1rem;
+    margin: 1.5rem;
+    font-family:serif;
 }
 
 footer {
-    background-color: orange;
+    background-color:white;
     overflow:hidden;
+    font-family:serif;
 }
 
 footer p {
     font-size: 1rem;
-    margin: .5rem 5% 5rem;
     color: white;
 }
 
 footer a {
-    color: white;
+    color: black;
 }
