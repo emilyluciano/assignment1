@@ -27,9 +27,7 @@ iframe {
     margin: 0;
     overflow: hidden;
     width: 100%;
-    height: auto
-    padding: auto;
-    
+    padding-bottom: 0;
 }   
 
 img {
@@ -89,8 +87,7 @@ h1 {
 
 h1 + p {
   margin: 1.5rem;
-  font-size: rem;
-  font-weight: serif;
+  font-size: 2rem;
   font-family: Georgia, serif;
 }
 
