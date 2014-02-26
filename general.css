@@ -23,6 +23,12 @@ html {
     background-size: 70rem;
 }
 
+iframe {
+    margin: 2.5rem;
+    padding: 0;
+    overflow: hidden;
+}   
+
 img {
     width: 100%;
     display: block;    
@@ -149,16 +155,18 @@ ul {
 }
 
 footer {
-  background-color:white;
+  background-image: url(images/Background2.jpg);
+  background-repeat:repeat;
+  background-position: center;
   overflow:hidden;
   font-family:serif;
 }
 
 footer p {
   font-size: 1rem;
-  color: white;
+  color: orange;
 }
 
 footer a {
-  color: black;
+  color: orange;
 }
