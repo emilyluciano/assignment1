@@ -103,7 +103,8 @@ h3 {
   margin: 1.5rem;
   font-size: 2rem;
   line-height:normal;
-  font-family: Georgia, serif;
+  font-family: Georgia;
+  color: #006699
 }
 
 h4 {
@@ -116,6 +117,7 @@ h4 {
 h5 {
   margin: 1rem;
   font-size: 1.5rem;
+  color: #006699;
 }
 
 h6 {
@@ -123,6 +125,7 @@ h6 {
   font-size: 1.5rem;
   outline-style: double;
   font-family:fantasy;
+  color: black;
 }
 
 p {
@@ -151,7 +154,6 @@ hr {
 ol,
 ul {
   margin: 0 0 1.5rem;
-    
 }
 
 footer {
