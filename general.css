@@ -24,9 +24,12 @@ html {
 }
 
 iframe {
-    margin: 2.5rem;
-    padding: 0;
+    margin: 0;
     overflow: hidden;
+    width: 100%;
+    height: auto
+    padding: auto;
+    
 }   
 
 img {
