@@ -27,13 +27,6 @@ img {
     width: 100%;
     display: block;    
 }
-
-.videoWrapper {
-	position: absolute;
-	padding-bottom: 56.5%; 
-	padding-top: 25px;
-	height: 30px;
-}
     
 body {
  padding: 0;
