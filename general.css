@@ -53,8 +53,8 @@ article {
 
 .logo {
    height: 7rem;
-   width:auto;
-   margin: 0, auto;
+   width: auto;
+   margin: .25rem;
 }
 
 .art {
@@ -73,7 +73,7 @@ h1 {
   margin: 1.5rem;
   font-size: 3.5rem;
   line-height: 4rem;
-  font-family: Georgia;
+  font-family: Georgia, Times, serif;
   color: #FF9933;
 }
 
@@ -115,17 +115,17 @@ h4 {
 }
 
 h5 {
-  margin: 1rem;
-  font-size: 1.5rem;
-  color: #006699;
-}
-
-h6 {
   margin: 1.5rem;
   font-size: 1.5rem;
   outline-style: double;
   font-family:fantasy;
   color: black;
+}
+
+h6 {
+  margin: 1rem;
+  font-size: 2rem;
+  color: #006699;
 }
 
 p {
@@ -134,6 +134,38 @@ p {
   font-family: serif;
 }
 
+blockquote {
+    margin: 1rem;
+    padding: 0 0 0 15%;
+    overflow: hidden;
+}
+
+blockquote p {
+    font-size: .875rem;
+    clear: both;
+}
+
+blockquote span {
+    font-weight: bold;
+    float: right;
+    margin: 1.5rem 0;
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 4em;
+    color: #006699;
+    float: left;
+    margin: .5rem 0 0 -2rem;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 4rem;
+    position: absolute;
+    color: #006699;
+    margin: .9rem 0 0;
+}
 figure {
    margin: 0;
    width: 100%;
@@ -166,9 +198,15 @@ footer {
 
 footer p {
   font-size: 1rem;
-  color: orange;
+  color: black;
+  background-image: url(images/facebook.png);
+  background-repeat:no-repeat;
+  background-position: right;
+  background-size: 3rem; 
+    
+  
 }
 
 footer a {
-  color: orange;
+  color: black;
 }
