@@ -166,6 +166,7 @@ blockquote p:after {
     color: #006699;
     margin: .9rem 0 0;
 }
+
 figure {
    margin: 0;
    width: 100%;
@@ -203,8 +204,6 @@ footer p {
   background-repeat:no-repeat;
   background-position: right;
   background-size: 3rem; 
-    
-  
 }
 
 footer a {
