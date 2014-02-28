@@ -39,6 +39,10 @@ body {
  padding: 0;
  margin: 0;
 }
+
+details {
+    margin: 1.5rem;
+}
     
 .masthead {
   background-color: white;
@@ -75,6 +79,7 @@ h1 {
   line-height: 4rem;
   font-family: Georgia, Times, serif;
   color: #FF9933;
+  text-shadow: .15rem .15rem .05em rgba(0, 0, 0, 10);
 }
 
 .dropcap:first-letter {
@@ -83,6 +88,7 @@ h1 {
     float: left;
     margin: 1.7rem .5rem 1rem 0;
     color: #006699;
+    text-shadow: .15rem .15rem .05em rgba(0, 0, 0, 10);
 }
 
 h1 + p {
@@ -104,7 +110,8 @@ h3 {
   font-size: 2rem;
   line-height:normal;
   font-family: Georgia;
-  color: #006699
+  color: #006699;
+  text-shadow: .15rem .15rem .05em rgba(0, 0, 0, .4);
 }
 
 h4 {
@@ -157,6 +164,7 @@ blockquote p:before {
     color: #006699;
     float: left;
     margin: .5rem 0 0 -2rem;
+    text-shadow: .15rem .15rem .05em rgba(0, 0, 0, .4);
 }
 
 blockquote p:after {
@@ -165,6 +173,7 @@ blockquote p:after {
     position: absolute;
     color: #006699;
     margin: .9rem 0 0;
+    text-shadow: .15rem .15rem .05em rgba(0, 0, 0, .4);
 }
 
 figure {
@@ -187,6 +196,7 @@ hr {
 ol,
 ul {
   margin: 0 0 1.5rem;
+  padding-bottom: 2rem;
 }
 
 footer {
@@ -203,7 +213,7 @@ footer p {
   background-image: url(images/facebook.png);
   background-repeat:no-repeat;
   background-position: right;
-  background-size: 3rem; 
+  background-size: 3rem;
 }
 
 footer a {
